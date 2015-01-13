@@ -33,7 +33,7 @@ The example below uses the Kaggle Titanic dataset. It creates 3 different linear
 
 The results of the AIC comparison suggest that the parameters in testLM_2 are the best set to move forward with.
 
-There is also a tepwise AIC finctional capability contained within the MASS package that may be of some use, though I have not had an opportunity to explore its meaning
+There is also a stepwise AIC finctional capability contained within the MASS package that may be of some use, though I have not had an opportunity to explore its meaning
 
 	> library(MASS)
 	> step <- stepAIC(testLM, direction="both")
